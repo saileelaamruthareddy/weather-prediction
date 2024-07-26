@@ -46,14 +46,6 @@ if st.button("Submit"):
     })
     weather=model.predict(d)[0]
     st.write(weather)
-    if weather =='Rainy':
-        st.image(r"C:\Users\DELL\Pictures\rainy.jpg",width=1000)
-    elif weather=='Cloudy':
-        st.image(r"C:\Users\DELL\Pictures\cloudy.jpg",width=1000)
-    elif weather=='Sunny':
-        st.image(r"C:\Users\DELL\Pictures\sunny.jfif",width=1000)
-    elif weather=='Snowy':
-        st.image(r"C:\Users\DELL\Pictures\sowy.jpg",width=700)
      
 
     
