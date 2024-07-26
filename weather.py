@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score
 import pickle
 import streamlit as st
 
-st.image(logo inno.jpeg")
+st.image(logo inno.jpeg)
 name=st.title('Machine Learning Models for Accurate Weather Type Prediction')
 st.header('Enter below details')
 
