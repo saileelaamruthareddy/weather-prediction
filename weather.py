@@ -47,13 +47,13 @@ if st.button("Submit"):
     weather=model.predict(d)[0]
     st.write(weather)
     if weather =='Rainy':
-        st.image(r"C:\Users\saile\OneDrive\Desktop\rainy.jpeg",width=1000)
+        st.image("rainy.jpeg",width=1000)
     elif weather=='Cloudy':
-        st.image(r"C:\Users\saile\OneDrive\Desktop\cloudy.jpeg",width=1000)
+        st.image("cloudy.jpeg",width=1000)
     elif weather=='Sunny':
-        st.image(r"C:\Users\saile\OneDrive\Desktop\sunny.jpeg",width=1000)
+        st.image("sunny.jpeg",width=1000)
     elif weather=='Snowy':
-        st.image(r"C:\Users\saile\OneDrive\Desktop\snowy.jpeg",width=700)
+        st.image("snowy.jpeg",width=700)
      
 
      
