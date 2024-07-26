@@ -7,9 +7,11 @@ from sklearn.preprocessing import StandardScaler,OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_scorestreamlit
+from sklearn.metrics import accuracy_score
 import pickle
 import streamlit as st
+from sklearn.metrics import accuracy_score  # Corrected import statement
+
 
 with open('weather.pkl', 'rb') as file:
     model = pickle.load(file)
